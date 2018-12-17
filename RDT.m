@@ -66,10 +66,10 @@ user_app_groups(1).name = 'Web Hosting Services';
 user_app_groups(1).popularity = 1;
 user_app_groups(1).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(1).vm_mips = mean_mips_per_core;
-user_app_groups(1).vm_memory = 2*2^10;          % timesGB (2^10=1GB=1024MB)
-user_app_groups(1).image_size = 10*2^10;        % timesGB (2^10=1GB=1024MB)
+user_app_groups(1).vm_memory = 2*2^10;          % times GB (2^10=1GB=1024MB)
+user_app_groups(1).image_size = 10*2^10;        % times GB (2^10=1GB=1024MB)
 user_app_groups(1).vm_bandwidth = 1*2^10;       % Average BW (in Mbps)
-user_app_groups(1).vm_monthly_traffic_in = 10*2^10; % TimesTera (in GB)
+user_app_groups(1).vm_monthly_traffic_in = 10*2^10; % Times Tera (in GB)
 user_app_groups(1).vm_monthly_traffic_out = 10*2^10;
 user_app_groups(1).vm_lifetime_average = 1*month;
 user_app_groups(1).vm_react_mean = 1*hour;
@@ -78,8 +78,8 @@ user_app_groups(2).name = 'Analytics';
 user_app_groups(2).popularity = 1;
 user_app_groups(2).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(2).vm_mips = 4*mean_mips_per_core;
-user_app_groups(2).vm_memory = 8*2^10;      % timesGB
-user_app_groups(2).image_size = 20*2^10;    % timesGB
+user_app_groups(2).vm_memory = 8*2^10;      % times GB
+user_app_groups(2).image_size = 20*2^10;    % times GB
 user_app_groups(2).vm_bandwidth = .5*2^10;
 user_app_groups(2).vm_monthly_traffic_in = 1*2^10;
 user_app_groups(2).vm_monthly_traffic_out = 1*2^10;
@@ -90,8 +90,8 @@ user_app_groups(3).name = 'Enterprise Data Warehouse ';
 user_app_groups(3).popularity = 1;
 user_app_groups(3).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(3).vm_mips = mean_mips_per_core;
-user_app_groups(3).vm_memory = 1*2^10;      % timesGB
-user_app_groups(3).image_size = 30*2^10;    % timesGB
+user_app_groups(3).vm_memory = 1*2^10;      % times GB
+user_app_groups(3).image_size = 30*2^10;    % times GB
 user_app_groups(3).vm_bandwidth = .25*2^10;
 user_app_groups(3).vm_monthly_traffic_in = 10*2^10;
 user_app_groups(3).vm_monthly_traffic_out = 10*2^10;
@@ -102,8 +102,8 @@ user_app_groups(4).name = 'CRM Applications'; % Customer Relationship Management
 user_app_groups(4).popularity = 1;
 user_app_groups(4).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(4).vm_mips = mean_mips_per_core;
-user_app_groups(4).vm_memory = 2*2^10;      % timesGB
-user_app_groups(4).image_size = 10*2^10;    % timesGB
+user_app_groups(4).vm_memory = 2*2^10;      % times GB
+user_app_groups(4).image_size = 10*2^10;    % times GB
 user_app_groups(4).vm_bandwidth = .25*2^10;
 user_app_groups(4).vm_monthly_traffic_in = 10*2^10;
 user_app_groups(4).vm_monthly_traffic_out = 10*2^10;
@@ -114,8 +114,8 @@ user_app_groups(5).name = 'Enterprise Email Service';
 user_app_groups(5).popularity = 1;
 user_app_groups(5).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(5).vm_mips = 2*mean_mips_per_core;
-user_app_groups(5).vm_memory = 4*2^10;      % timesGB
-user_app_groups(5).image_size = 40*2^10;    % timesGB
+user_app_groups(5).vm_memory = 4*2^10;      % times GB
+user_app_groups(5).image_size = 40*2^10;    % times GB
 user_app_groups(5).vm_bandwidth = .5*2^10;
 user_app_groups(5).vm_monthly_traffic_in = 10*2^10;
 user_app_groups(5).vm_monthly_traffic_out = 10*2^10;
@@ -126,8 +126,8 @@ user_app_groups(6).name = 'HCM Applications'; % Human Capital Management
 user_app_groups(6).popularity = 1;
 user_app_groups(6).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(6).vm_mips = mean_mips_per_core;
-user_app_groups(6).vm_memory = 1*2^10;      % timesGB
-user_app_groups(6).image_size = 10*2^10;    % timesGB
+user_app_groups(6).vm_memory = 1*2^10;      % times GB
+user_app_groups(6).image_size = 10*2^10;    % times GB
 user_app_groups(6).vm_bandwidth = .25*2^10;
 user_app_groups(6).vm_monthly_traffic_in = 1*2^10;
 user_app_groups(6).vm_monthly_traffic_out = 1*2^10;
@@ -138,8 +138,8 @@ user_app_groups(7).name = 'Software Driven Network';
 user_app_groups(7).popularity = 1;
 user_app_groups(7).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(7).vm_mips = 2*mean_mips_per_core;
-user_app_groups(7).vm_memory = 2*2^10;      % timesGB
-user_app_groups(7).image_size = 10*2^10;    % timesGB
+user_app_groups(7).vm_memory = 2*2^10;      % times GB
+user_app_groups(7).image_size = 10*2^10;    % times GB
 user_app_groups(7).vm_bandwidth = 1*2^10;
 user_app_groups(7).vm_monthly_traffic_in = 20*2^10;
 user_app_groups(7).vm_monthly_traffic_out = 20*2^10;
@@ -150,8 +150,8 @@ user_app_groups(8).name = 'Procurement and Auditing Applications';
 user_app_groups(8).popularity = 1;
 user_app_groups(8).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(8).vm_mips = mean_mips_per_core;
-user_app_groups(8).vm_memory = 1*2^10;      % timesGB
-user_app_groups(8).image_size = 5*2^10;     % timesGB
+user_app_groups(8).vm_memory = 1*2^10;      % times GB
+user_app_groups(8).image_size = 5*2^10;     % times GB
 user_app_groups(8).vm_bandwidth = .25*2^10;
 user_app_groups(8).vm_monthly_traffic_in = 1*2^10;
 user_app_groups(8).vm_monthly_traffic_out = 1*2^10;
@@ -162,8 +162,8 @@ user_app_groups(9).name = 'Others';
 user_app_groups(9).popularity = 1;
 user_app_groups(9).vm_count_trend = [0.8,0.15,0.05];
 user_app_groups(9).vm_mips = mean_mips_per_core;
-user_app_groups(9).vm_memory = 2*2^10;      % timesGB
-user_app_groups(9).image_size = 5*2^10;     % timesGB
+user_app_groups(9).vm_memory = 2*2^10;      % times GB
+user_app_groups(9).image_size = 5*2^10;     % times GB
 user_app_groups(9).vm_bandwidth = .25*2^10;
 user_app_groups(9).vm_monthly_traffic_in = 1*2^10;
 user_app_groups(9).vm_monthly_traffic_out = 1*2^10;
@@ -312,9 +312,9 @@ pm_types(1).cpu = 'Intel E7-x870';                      % processor family
 pm_types(1).cpu_freq = 2.4e9;
 pm_types(1).cpu_mips = 96.90e3;                         % per CPU
 pm_types(1).cores_per_cpu = 10;                         % number of cores per machine
-pm_types(1).memory_per_pm = 80*2^10;                    % timesGB
-pm_types(1).storage_per_pm = 1*2^20;                    % timesTB
-pm_types(1).bandwidth_per_pm = 10*2^10;                 % timesGB (2^10=1GB=1024MB)
+pm_types(1).memory_per_pm = 80*2^10;                    % times GB
+pm_types(1).storage_per_pm = 1*2^20;                    % times TB
+pm_types(1).bandwidth_per_pm = 10*2^10;                 % times GB (2^10=1GB=1024MB)
 pm_types(1).afr = pm_types_afr(1);                      % Annualized Failure Rate
 pm_types(1).mtbf = (-8760/log(1-pm_types(1).afr))*hour; % seconds
 pm_types(1).arch = 'x86';
@@ -339,9 +339,9 @@ pm_types(2).cpu = 'Intel 5690';
 pm_types(2).cpu_freq = 3.46e9;
 pm_types(2).cpu_mips = 83.04e3;             % per CPU
 pm_types(2).cores_per_cpu = 6;
-pm_types(2).memory_per_pm = 64*2^10;        % timesGB
+pm_types(2).memory_per_pm = 64*2^10;        % times GB
 pm_types(2).storage_per_pm = 3*2^20;        % timesTB
-pm_types(2).bandwidth_per_pm = 10*2^10;     % timesGB (2^10=1GB=1024MB)
+pm_types(2).bandwidth_per_pm = 10*2^10;     % times GB (2^10=1GB=1024MB)
 pm_types(2).afr = pm_types_afr(2);                   % Annualized Failure Rate
 pm_types(2).mtbf = (-8760/log(1-pm_types(2).afr))*hour;
 pm_types(2).arch = 'x86';
@@ -366,9 +366,9 @@ pm_types(3).cpu = 'Intel 7560';
 pm_types(3).cpu_freq = 2.266e9;
 pm_types(3).cpu_mips = 75.51e3;         % per CPU
 pm_types(3).cores_per_cpu = 8;
-pm_types(3).memory_per_pm = 40*2^10;    % timesGB
+pm_types(3).memory_per_pm = 40*2^10;    % times GB
 pm_types(3).storage_per_pm = 1*2^20;    % timesTB
-pm_types(3).bandwidth_per_pm = 10*2^10; % timesGB (2^10=1GB=1024MB)
+pm_types(3).bandwidth_per_pm = 10*2^10; % times GB (2^10=1GB=1024MB)
 pm_types(3).afr = pm_types_afr(3);                 % Annualized Failure Rate
 pm_types(3).mtbf = (-8760/log(1-pm_types(3).afr))*hour;
 pm_types(3).arch = 'x86';
@@ -445,7 +445,7 @@ RDT_DrawAvailUtil
 % all time values in seconds
 tic
 
-ready_to_migrate = 0;           % a flag to show when migration of overserved VMs is possible
+ready_to_migrate = 0;           % a flag to show when migration of over-served VMs is possible
 users_cost_this_round = zeros(user_count,ceil(sim_duration/measurement_period));
 avail_price_record = [0,0,0,0,0,0];   % keeps the price for asked availability (User ID/Period/Req. Aval/Del. Avail/Net Cost/Init Cost)
 a_0 = 0.9*(downtime_dic(end)-downtime_dic(1)) + downtime_dic(1);
@@ -499,7 +499,7 @@ while(time < sim_duration)
             end
             fprintf(log_file_ID,'@ %d - \tCatastrophic error across the DC. The whole DC will experience DT of %d(hours).\n',time,cat_event_duration(cat_condition_index)/hour);
             time = time + cat_event_duration(cat_condition_index) - sim_step;
-            continue                    % skip the rest the simulation iter
+            continue                    % skip the rest the simulation iteration
         end
     end
     
@@ -601,7 +601,7 @@ while(time < sim_duration)
                     end
                 end
             end
-            % check for dileberate downtime
+            % check for deliberate downtime
             if deliberate_downtimes==1
                 if vm(i).pause==false
                     user_vm_count = user(vm(i).user_id).vm_count;
