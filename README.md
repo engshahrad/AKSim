@@ -2,7 +2,7 @@
 
 AKSim is a high-level stochastic cloud simulator written in MATLAB by me, Mohammad Shahrad. We used it in our SoCC '16 paper: http://parallel.princeton.edu/papers/ak-socc2016.pdf . This code was written in the 8/15-8/16 time period and I am open sourcing it so that others can also use it.
 
-Please feel free to use it or base your simulator on it. Don't forget to cite us after using it! :) 
+Please feel free to use it or base your simulator on it. Don't forget to cite us after using it! :blush:
 ```
 @inproceedings{Shahrad:2016:AKF:2987550.2987556,
  author = {Shahrad, Mohammad and Wentzlaff, David},
