@@ -78,11 +78,11 @@ sla_downtime_penalty_vector = ones(length(pm_types),max([pm_types.pm_counts]));
      vm(i1).active = false;     % make sure that VM is not activated
      return
  end
- % calculating the cost of vm on available resources
+ % calculating the cost of VM on available resources
  init_cost = (vm(i1).vm_mips*[pm_types.compute_cost] ...
       + vm(i1).vm_memory*[pm_types.mem_cost] ...
       + vm(i1).image_size*[pm_types.storage_cost]);
-      %+ vm(i1).vm_bandwidth*[pm_types.bandwidth_cost]);    % BW cost claculated seperately
+      %+ vm(i1).vm_bandwidth*[pm_types.bandwidth_cost]);    % BW cost calculated separately
  cost = (sla_downtime_penalty_vector).*(init_cost'*ones(1,max([pm_types.pm_counts]))); % this is intermediary cost and customer is not going to be charged with it
   
  combined_pm_availability = sum(pm_availability,3);
@@ -119,7 +119,7 @@ sla_downtime_penalty_vector = ones(length(pm_types),max([pm_types.pm_counts]));
  pm_types(min_cost_type_index).memory_util(min_cost_pm_index) = pm_types(min_cost_type_index).memory_util(min_cost_pm_index) + vm(i1).vm_memory;
  pm_types(min_cost_type_index).storage_util(min_cost_pm_index) = pm_types(min_cost_type_index).storage_util(min_cost_pm_index) + vm(i1).image_size;
  pm_types(min_cost_type_index).bandwidth_util(min_cost_pm_index) = pm_types(min_cost_type_index).bandwidth_util(min_cost_pm_index) + vm(i1).vm_bandwidth;
- % vm assignment info save
+ % VM assignment info save
  vm(i1).location = [min_cost_type_index, min_cost_pm_index, avail_cpu_index];
  % save the availability of cheapest resource
  PM_type_avail_summary = [1,zeros(1,length(pm_types)-1)]+sum(sum(pm_availability,3),2)';

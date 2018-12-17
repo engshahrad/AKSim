@@ -34,15 +34,15 @@ avail_price_record = dlmread('./temp_res/AvailPriceRec.out');
 figure
 subplot(1,3,1)
 scatter(avail_price_record(:,3),avail_price_record(:,4),'.');
-xlabel('Req. Avail');
-ylabel('Del. Avail');
+xlabel('Requested Availability');
+ylabel('Delivered Availability');
 subplot(1,3,2)
 scatter(avail_price_record(:,3),avail_price_record(:,5),'.');
-xlabel('Req. Avail');
+xlabel('Requested Availability');
 ylabel('Price');
 subplot(1,3,3)
 scatter(avail_price_record(:,4),avail_price_record(:,5),'.');
-xlabel('Del. Avail');
+xlabel('Delivered Avail');
 ylabel('Price');
 
 if save_fig==1

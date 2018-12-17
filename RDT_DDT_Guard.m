@@ -23,9 +23,9 @@
 % (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 % SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-% Filename: RDT_DDT_Gaurd.m
+% Filename: RDT_DDT_Guard.m
 % Author: M Shahrad
-% Description: Shapes the DDT gaurd
+% Description: Shapes the DDT guard
 
 
 RDT_Parameters

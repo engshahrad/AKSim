@@ -25,7 +25,7 @@
 
 % Filename: RDT_VM_Reactivation_Model.m
 % Author: M Shahrad
-% Description: Bulds reactivation models for VMs
+% Description: Builds reactivation models for VMs
 
 
 % loop over all PM types
