@@ -26,7 +26,7 @@ Please feel free to use it or base your simulator on it. Don't forget to cite us
 ## How to use it?
 
 1. Set the simulation parameters which can be find in `RDT_Parameters.m`. A deeper change of settings requires you to modify the initial configurations in `RDT.m`.
-2. Run the simulation. There is no need to use MATLAB GUI, and you can directly run it using the following command:
+2. Run the simulation. There is no need to use the MATLAB GUI, and you can directly run it using the following command:
 ```
 matlab -nodisplay -nosplash -nodesktop -r RDT
 ```
