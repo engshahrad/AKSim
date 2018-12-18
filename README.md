@@ -30,8 +30,7 @@ Please feel free to use it or base your simulator on it. Don't forget to cite us
 ```
 matlab -nodisplay -nosplash -nodesktop -r RDT
 ```
-Simulation results will be stored in the `temp_res` directory. 
-3. Analyze the results: use different plotting scripts to analyze the simulation in different aspects.
+3. Simulation results will be stored in the `temp_res` directory. Use different plotting scripts to analyze the simulation in different aspects.
 
 
 ## Tested Environment
